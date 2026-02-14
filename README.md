@@ -117,7 +117,8 @@ Confusion Matrix
 Model performance comparison
 
 ## 🧪 Example Predictions
-❌ Fake Job Example
+### ❌ Fake Job Example
+
 predict_job(
     "Data Entry Job",
     "Work From Home",
@@ -136,7 +137,8 @@ Output:
 
 Fake Job (1)
 
-## ✅ Genuine Job Example
+### ✅ Genuine Job Example
+
 predict_job(
     "Customer Service - Cloud Video Production",
     "NZ, Auckland",
