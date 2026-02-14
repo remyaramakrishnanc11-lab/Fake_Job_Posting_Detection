@@ -1,5 +1,5 @@
 # Fake_Job_Posting_Detection
-##📌 Project Overview
+###📌 Project Overview
 
 Fraudulent job postings on online platforms mislead job seekers and create serious security risks.
 This project focuses on analyzing job posting data and predicting whether a job is Genuine or Fraudulent using machine learning techniques.
