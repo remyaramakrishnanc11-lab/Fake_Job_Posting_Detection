@@ -16,14 +16,14 @@ Understand textual patterns in fraudulent postings
 
 Compare classification models for performance
 
-##💼 Problem Statement
+## 💼 Problem Statement
 
 Online job portals sometimes contain misleading or fraudulent job advertisements.
 Manual detection is difficult and time-consuming.
 
 This project uses machine learning-based classification models to analyze job posting content and predict whether a job is fake.
 
-##📂 Dataset Description
+## 📂 Dataset Description
 
 The dataset contains job posting attributes representing company details, job descriptions, and related information.
 
@@ -58,7 +58,7 @@ fraudulent – Target variable (0 = Genuine, 1 = Fake)
 
 The dataset captures both structured and unstructured textual job information, making it suitable for fraud detection.
 
-##🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 Python
 
@@ -74,7 +74,7 @@ Scikit-learn
 
 TF-IDF Vectorizer
 
-##🔄 System Approach
+## 🔄 System Approach
 
 Data Collection – Job posting dataset
 
@@ -90,11 +90,11 @@ Evaluation – Comparing actual and predicted results
 
 Result Interpretation – Identifying best-performing model
 
-##🤖 Machine Learning Models Used
+## 🤖 Machine Learning Models Used
 
 Logistic Regression (Baseline Model)
 
-##📊 Evaluation Metrics
+## 📊 Evaluation Metrics
 
 As this is a classification problem, the following metrics were used:
 
@@ -108,7 +108,7 @@ F1-Score
 
 Confusion Matrix
 
-##📈 Visualizations
+## 📈 Visualizations
 
 Distribution of genuine vs fraudulent jobs
 
@@ -116,7 +116,7 @@ Confusion Matrix
 
 Model performance comparison
 
-##🧪 Example Predictions
+## 🧪 Example Predictions
 ❌ Fake Job Example
 predict_job(
     "Data Entry Job",
@@ -136,7 +136,7 @@ Output:
 
 Fake Job (1)
 
-##✅ Genuine Job Example
+## ✅ Genuine Job Example
 predict_job(
     "Customer Service - Cloud Video Production",
     "NZ, Auckland",
@@ -155,7 +155,7 @@ Output:
 
 Genuine Job (0)
 
-##🧪 Results
+## 🧪 Results
 
 Logistic Regression achieved high classification accuracy
 
@@ -165,7 +165,7 @@ Confusion Matrix shows effective separation between fake and genuine jobs
 
 Model successfully identifies patterns such as unrealistic salaries and vague job descriptions
 
-##✅ Conclusion
+## ✅ Conclusion
 
 The project successfully detects fraudulent job postings using machine learning techniques.
 
@@ -179,7 +179,7 @@ Reduce online job fraud
 
 Increase trust among job seekers
 
-##🔮 Future Scope
+## 🔮 Future Scope
 
 Use advanced models like XGBoost or Deep Learning
 
@@ -189,4 +189,4 @@ Integrate with real-time job portals
 
 Improve handling of imbalanced datasets
 
-##Author: Remya C
+## Author: Remya C
