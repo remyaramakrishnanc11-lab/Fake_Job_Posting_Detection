@@ -1,4 +1,4 @@
-# Fake_Job_Posting_Detection
+# Real/Fake_Job_Posting_Detection
 ## 📌 Project Overview
 
 Fraudulent job postings on online platforms mislead job seekers and create serious security risks.
